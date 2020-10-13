@@ -4,6 +4,8 @@
     <style>
       body {
         background-image: url(forest.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
       }
       img {
         position: relative;
@@ -19,8 +21,8 @@
         alert("Woohoo! You found Bigfoot.");
         var picture = document.getElementById("bigFoot");
 
-        var x = Math.random() * 300;
-        var y = Math.random() * 300;
+        var x = Math.random() * 700;
+        var y = Math.random() * 700;
 
         picture.style.top = x + "px";
         picture.style.left = y + "px";
